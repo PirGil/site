@@ -1,0 +1,171 @@
+---
+layout: default
+description: PirGil builds focused software for businesses and developers — starting with Reporda, an API that turns your data into polished reports.
+---
+
+<!-- ============================================================
+     NAV
+     ============================================================ -->
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="site-nav__inner">
+    <a href="/" class="site-nav__brand" aria-label="PirGil home">
+      <div class="logo-tile logo-tile--nav" aria-hidden="true">
+        <div class="logo-mark logo-mark--nav">
+          <span>P</span>
+          <span class="logo-dot logo-dot--nav"></span>
+        </div>
+      </div>
+      <span class="site-nav__wordmark">PirGil</span>
+    </a>
+    <ul class="site-nav__links">
+      <li><a href="#products" class="site-nav__link">Products</a></li>
+      <li><a href="#about" class="site-nav__link">About</a></li>
+      <li><a href="#contact" class="site-nav__link">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="hero" aria-labelledby="hero-heading">
+  <div class="hero__inner">
+    <div class="hero__content">
+      <p class="hero__kicker">A new software company · Est. 2026</p>
+      <h1 class="hero__heading" id="hero-heading">Precise tools for serious work.</h1>
+      <p class="hero__body">PirGil builds focused software for businesses and developers — starting with Reporda, an API that turns your data into polished reports.</p>
+      <div class="hero__ctas">
+        <a href="#products" class="btn btn--primary">Explore Reporda</a>
+        <a href="#contact" class="btn btn--ghost">Get in touch</a>
+      </div>
+    </div>
+    <div class="logo-tile logo-tile--hero" aria-hidden="true">
+      <div class="logo-mark logo-mark--hero">
+        <span>P</span>
+        <span class="logo-dot logo-dot--hero"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PRODUCTS
+     ============================================================ -->
+<section id="products" aria-labelledby="products-heading">
+  <div class="products">
+    <p class="section-label">Products</p>
+    <h2 class="section-heading products__heading" id="products-heading">One product shipping. More on the bench.</h2>
+
+    <div class="products__grid">
+
+      <!-- Reporda card -->
+      <article class="card-reporda">
+        <div class="card-reporda__header">
+          <div class="reporda-brand">
+            <div class="reporda-icon" aria-hidden="true">R</div>
+            <span class="reporda-name">Reporda</span>
+          </div>
+          <span class="badge badge--flagship">Flagship</span>
+        </div>
+
+        <p class="card-reporda__body">
+          Report rendering as an API. Send your data, get a polished document back — Reporda renders your RDL templates to PDF, Excel, HTML and more. No infrastructure to manage.
+        </p>
+
+        <div class="code-snippet" aria-label="API example">
+          <div><span class="code-method">POST</span> /v1/render</div>
+          <div class="code-comment">{ "template": "invoice.rdl", "format": "pdf", "data": … }</div>
+          <div><span class="code-response">→ 200</span> invoice-2026-06.pdf · 84 KB</div>
+        </div>
+
+        <div class="card-reporda__footer">
+          <a href="https://reporda.com" class="btn-dark" target="_blank" rel="noopener">Visit reporda.com ↗</a>
+          <span class="formats">PDF · XLSX · HTML · DOCX</span>
+        </div>
+      </article>
+
+      <!-- Coming soon card -->
+      <article class="card-next">
+        <div class="card-next__dots" aria-hidden="true">
+          <div class="card-next__dot card-next__dot--active"></div>
+          <div class="card-next__dot card-next__dot--muted"></div>
+          <div class="card-next__dot card-next__dot--muted"></div>
+        </div>
+        <h3 class="card-next__heading">More in the works</h3>
+        <p class="card-next__body">Reporda is the first of a family of focused developer tools. New products will appear here as they're ready — no vaporware, no waitlists for things that don't exist.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     ABOUT
+     ============================================================ -->
+<section id="about" class="about" aria-labelledby="about-heading">
+  <div class="about__inner">
+    <div>
+      <p class="section-label">About</p>
+      <h2 class="section-heading" id="about-heading">Small company. Sharp tools.</h2>
+    </div>
+    <div>
+      <p class="about__body">PirGil is a newly formed technology company. We build software that does one job extremely well, exposes it through a clean API, and stays out of your way.</p>
+      <div class="values-grid">
+        <div class="value">
+          <span class="value__label">Precise</span>
+          <p class="value__text">Documents, data and APIs where correctness isn't optional.</p>
+        </div>
+        <div class="value">
+          <span class="value__label">Dependable</span>
+          <p class="value__text">Built for businesses that put our output in front of their customers.</p>
+        </div>
+        <div class="value">
+          <span class="value__label">Developer-first</span>
+          <p class="value__text">An API call should be all it takes. Docs you'd actually read.</p>
+        </div>
+        <div class="value">
+          <span class="value__label">Focused</span>
+          <p class="value__text">One job per product. No platforms-of-everything.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT / FOOTER
+     ============================================================ -->
+<footer id="contact" class="site-footer" aria-labelledby="contact-heading">
+  <div class="site-footer__inner">
+    <div class="contact-grid">
+      <div>
+        <p class="section-label contact__kicker">Contact</p>
+        <h2 class="contact__heading" id="contact-heading">Talk to us.</h2>
+        <p class="contact__body">Partnerships, early access to Reporda, or just curious what we're building next — we read everything.</p>
+      </div>
+      <div class="email-cards">
+        <a href="mailto:hello@pirgil.com" class="email-card">
+          <span class="email-card__address">hello@pirgil.com</span>
+          <span class="email-card__type">General</span>
+        </a>
+        <a href="mailto:sales@pirgil.com" class="email-card">
+          <span class="email-card__address">hello@pirgil.com</span>
+          <span class="email-card__type">Reporda</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bar">
+      <div class="footer-brand">
+        <div class="logo-tile logo-tile--foot" aria-hidden="true">
+          <div class="logo-mark logo-mark--foot">
+            <span>P</span>
+            <span class="logo-dot logo-dot--foot"></span>
+          </div>
+        </div>
+        <span class="footer-wordmark">PirGil</span>
+      </div>
+      <span class="footer-copy">© 2026 PirGil. All rights reserved.</span>
+    </div>
+  </div>
+</footer>

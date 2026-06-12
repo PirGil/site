@@ -1,0 +1,10 @@
+title: PirGil
+description: Precise tools for serious work.
+url: "https://pirgil.com"
+baseurl: ""
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
